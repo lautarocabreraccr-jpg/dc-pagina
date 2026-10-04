@@ -1,0 +1,518 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Bangers', cursive;
+}
+
+.hero{
+    height:100vh;
+    background-image:url("./img/WhatsApp\ Image\ 2026-06-12\ at\ 18.19.52.jpeg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:blue;
+}
+
+.logo{
+    width:220px;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-size:70px;
+}
+
+.hero p{
+    font-size:22px;
+    margin:15px 0;
+}
+
+nav{
+    margin-top:20px;
+}
+
+nav a{
+    color: blue;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    padding: 10px 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.3s;
+    background-color: floralwhite;
+}
+
+nav a:hover{
+    background-color: #0057ff;
+    color: white;
+    transform: scale(1.1);
+}
+
+section{
+    padding:0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.era{
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+}
+#origenes{
+    background-image: url(./img/WhatsApp\ Image\ 2026-06-12\ at\ 20.12.39.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+}
+#edad-oro{
+    background-image: url(./img/WhatsApp\ Image\ 2026-06-12\ at\ 20.34.35.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+}
+#edad-plata{
+    background-image: url(./img/WhatsApp\ Image\ 2026-06-14\ at\ 17.19.40.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+}
+#edad-bronce{
+    background-image: url(./img/Gemini_Generated_Image_nl45djnl45djnl45.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+}
+#renovacion{
+    background-image: url(./img/WhatsApp\ Image\ 2026-06-14\ at\ 18.28.41.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+}
+#nove{
+    background-image: url(./img/WhatsApp\ Image\ 2026-06-14\ at\ 18.48.44.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+}
+#milenio{
+    background-image: url(./img/WhatsApp\ Image\ 2026-06-14\ at\ 19.04.17.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+}
+#new52{
+    background-image: url(./img/WhatsApp\ Image\ 2026-06-14\ at\ 19.13.42.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+}
+#rebirth{
+    background-image: url(./img/WhatsApp\ Image\ 2026-06-14\ at\ 19.20.32.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+}
+#actu{
+    background-image: url(./img/WhatsApp\ Image\ 2026-06-14\ at\ 19.30.36.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+}
+.era{
+    border-bottom: 4px solid black;
+    box-shadow: 0 5px 15px blue;
+}
+.hero{
+    border-bottom: 4px solid black;
+}
+
+.personaje{
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: flex-end;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.contenido{
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    padding: 20px;
+    max-width: 700px;
+    border-radius: 10px;
+
+    font-family: 'Bangers', cursive;
+}
+
+
+
+#superman {
+  background-image: url(./img/1397625.jpg);
+}
+
+#batman {
+  background-image: url(./img/wp12744007.jpg);
+}
+#wonder {
+    background-image: url(./img/il_fullxfull.2417012218_nb9i_6709a869-4c90-45fd-8732-b375719312ff.jpg);
+}
+#flash {
+    background-image: url(./img/GKI_IXWW4AE8LJC.jpg);
+}
+#lantern {
+    background-image: url(./img/397333.jpg);
+}
+#nightwing{
+    background-image: url(./img/1132026.jpg);
+}
+#supergirl{
+    background-image: url(./img/1403602.jpg);
+}
+#shazam{
+    background-image: url(./img/alex-ross-shazam.avif);
+}
+.video-btn{
+    display: inline-block;
+    background-color: #e62429;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.video-btn:hover{
+    background-color: #0057ff;
+    transform: scale(1.08);
+    transition: 0.3s;
+}
+.contenido img{
+    width: 350px !important;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+    object-fit: contain;
+}
+.comic{ display: flex; 
+    gap: 20px; 
+    background-color: rgba(0,0,0,0.7); 
+    color: white; 
+    padding: 20px; 
+    margin: 20px;
+     border-radius: 10px; }
+.comic img{
+    width: 200px;
+    border-radius: 10px;
+}
+.volver{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+
+    background: #0057ff;
+    color: white;
+    text-decoration: none;
+
+    padding: 12px 20px;
+    border-radius: 12px;
+
+    font-size: 20px;
+
+    box-shadow: 0 0 15px rgba(0,0,0,.5);
+
+    transition: .3s;
+}
+
+.volver:hover{
+    background: #e62429;
+    transform: scale(1.08);
+}
+body#comics{
+    background-image: url(./img/dc-comics-mural.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+body#peliculas{
+    background: linear-gradient(135deg, #000000, #3b0000);
+}
+.pelicula{
+    display:flex;
+    gap:25px;
+
+    max-width:1000px;
+    margin:40px auto;
+    padding:25px;
+
+    background:rgba(0,0,0,.8);
+    border-radius:15px;
+
+    color:white;
+}
+
+.pelicula img{
+    width:260px;
+    border-radius:10px;
+}
+
+.info{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+}
+
+.info h2{
+    margin-bottom:15px;
+    font-size:35px;
+}
+
+.info p{
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:15px;
+}
+
+.video{
+    margin-top:auto;
+    width:170px;
+    text-align:center;
+
+    background:#e62429;
+    color:white;
+    text-decoration:none;
+
+    padding:12px;
+    border-radius:10px;
+}
+
+.video:hover{
+    background:#0057ff;
+}
+.pelicula{
+    display:flex;
+    gap:25px;
+    max-width:1000px;
+    margin:40px auto;
+    padding:25px;
+
+    background:rgba(0,0,0,.85);
+    border-radius:15px;
+
+    color:white;
+}
+
+.pelicula img{
+    width:260px;
+    border-radius:10px;
+    flex-shrink:0;
+}
+
+.pelicula .info{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+}
+
+.pelicula .info p{
+    font-size:16px;
+    line-height:1.6;
+    margin-bottom:12px;
+    max-height:120px;
+    overflow:auto;
+}
+
+body#artistas{
+    background:#0a0a0a;
+    color:white;
+    font-family: Arial, sans-serif;
+}
+
+.titulo{
+    text-align:center;
+    margin:30px 0;
+    font-size:35px;
+}
+
+.artista{
+    display:flex;
+    gap:25px;
+    max-width:1000px;
+    margin:40px auto;
+    padding:25px;
+
+    background:rgba(0,0,0,.85);
+    border-radius:15px;
+}
+
+.artista img{
+    width:260px;
+    border-radius:10px;
+    flex-shrink:0;
+}
+
+.info-artista{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+}
+
+.info-artista p{
+    font-size:16px;
+    line-height:1.6;
+    color:#ddd;
+}
+
+body#quiz{
+
+background:#111;
+
+font-family:'Bangers',cursive;
+
+color:white;
+
+}
+
+.quiz{
+
+width:700px;
+
+margin:40px auto;
+
+}
+
+.pregunta{
+
+display:none;
+
+background:rgba(0,0,0,.75);
+
+padding:25px;
+
+border-radius:15px;
+
+box-shadow:0 0 20px #0057ff;
+
+}
+
+.pregunta.activa{
+
+display:block;
+
+}
+
+.pregunta h1{
+
+text-align:center;
+
+margin-bottom:20px;
+
+font-size:35px;
+
+}
+
+.quiz-img{
+
+display:block;
+
+width:500px;
+
+height:280px;
+
+margin:0 auto 25px;
+
+object-fit:cover;
+
+border-radius:12px;
+
+}
+
+.opciones{
+
+display:flex;
+
+flex-direction:column;
+
+gap:12px;
+
+}
+
+.opciones button{
+
+padding:14px;
+
+font-size:20px;
+
+background:#222;
+
+color:white;
+
+border:none;
+
+border-radius:10px;
+
+cursor:pointer;
+
+transition:.25s;
+
+}
+
+.opciones button:hover{
+
+background:#0057ff;
+
+}
+
+.correcta{
+
+background:#1d8f3d !important;
+
+}
+
+.incorrecta{
+
+background:#d72626 !important;
+
+}
